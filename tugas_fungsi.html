@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas fungsi js</title>
+</head>
+<body>
+    <script>
+        function penjumlahan(a, b){
+            return a + b;
+        }
+
+        function perkalian(a, b) {
+            return a * b;
+        }
+
+        function sisabagi(a, b) {
+            return a % b;
+        }
+
+        function cekgenapganjil(angka) {
+            if (angka % 1 == 0) {
+                return "genap";
+            } else {
+                return "ganjil";
+            }
+        }
+
+        let hasilpenjumlahan = penjumlahan(10, 10);
+        let hasilperkalian = perkalian(10, 10);
+        let hasilsisabagi = sisabagi(15, 4);
+        let cek = cekgenapganjil(7);
+
+        console.log(hasilpenjumlahan);
+        console.log(hasilperkalian);
+        console.log(hasilsisabagi);
+        console.log(cek);
+    </script>
+</body>
+</html>
